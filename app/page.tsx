@@ -13,6 +13,7 @@ const contentsPage: React.FC = () => {
             title={content.title}
             image={content.image}
             description={content.description}
+            buttonLabel="体験する"
           />
         ))}
       </div>

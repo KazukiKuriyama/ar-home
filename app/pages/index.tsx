@@ -13,7 +13,7 @@ const Home: React.FC = () => {
             title={content.title}
             image={content.image}
             description={content.description}
-            buttonLabel="詳細"
+            buttonLabel="体験する"
             onButtonClick={() => alert("Button clicked!")}
           />
         ))}
