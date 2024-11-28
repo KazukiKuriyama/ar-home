@@ -53,3 +53,7 @@ body {
 .card-description {
   color: #555;
 }
+
+.card-button {
+  margin-top: 10px;
+}
