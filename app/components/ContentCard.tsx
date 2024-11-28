@@ -1,12 +1,12 @@
 import React from "react";
 
-type EventCardProps = {
+type ContentCardProps = {
   title: string;
   image: string;
   description: string;
 };
 
-const EventCard: React.FC<EventCardProps> = ({ title, image, description }) => {
+const ContentCard: React.FC<ContentCardProps> = ({ title, image, description }) => {
   return (
     <div className="card">
       <img src={image} alt={title} className="card-image" />
@@ -18,4 +18,4 @@ const EventCard: React.FC<EventCardProps> = ({ title, image, description }) => {
   );
 };
 
-export default EventCard;
+export default ContentCard;

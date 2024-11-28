@@ -1,4 +1,4 @@
-export const events = [
+export const contents = [
   {
     id: 1,
     title: "Heavenly Escape Amano Nene 1st Solo Live",

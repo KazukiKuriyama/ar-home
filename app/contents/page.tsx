@@ -2,7 +2,7 @@ import React from "react";
 import { contents } from "../../data/contents";
 import ContentCard from "../components/ContentCard";
 
-const Home: React.FC = () => {
+const contentsPage: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title">EVENT</h1>
@@ -20,4 +20,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default contentsPage;
