@@ -3,13 +3,13 @@ export const contents = [
     id: 1,
     title: "KYAST AR",
     image: "/images/kyast-ar.png",
-    description: "簡単起動！Webブラウザ上で動作するARインタラクションコンテンツデモアプリケーション",
+    description: "ARのデモコンテンツ",
   },
   {
     id: 2,
     title: "KYAST AR Viewer",
     image: "/images/kyast-ar-viewer.png",
-    description: "簡単起動！Webブラウザ上で動作するAR3Dモデルビューワー",
+    description: "AR3Dモデルビューワー",
   },
   {
     id: 3,
