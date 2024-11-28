@@ -15,20 +15,13 @@ const contentsPage: React.FC = () => {
         className="logo" // CSSクラスを指定（任意）
       />
 
-      <h1 style={{ margin: "20px" }}>KYAST AR</h1>
+      <h1 style={{ margin: "20px" }}>KYAST AR HUB</h1>
 
-      <text>
-        QRコードやURLリンクのクリックで簡単起動が可能なARコンテンツです。
-      </text>
+      <text>QRコードやURLリンクのクリックで簡単起動が可能なARコンテンツです。</text>
+      <text>コンテンツのカスタマイズ販売等承っております。</text>
       <div className="grid">
         {contents.map((content) => (
-          <ContentCard
-            key={content.id}
-            title={content.title}
-            image={content.image}
-            description={content.description}
-            buttonLabel="体験する"
-          />
+          <ContentCard key={content.id} title={content.title} image={content.image} description={content.description} label="体験する" link={content.link} />
         ))}
       </div>
     </div>

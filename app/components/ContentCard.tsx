@@ -7,18 +7,25 @@ type ContentCardProps = {
   description: string;
   buttonLabel?: string;
   onButtonClick?: () => void;
+  link?: string;
 };
 
-const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, buttonLabel, onButtonClick }) => {
+const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, label, link }) => {
   return (
     <div className="card">
       <Image src={image} alt={title} className="card-image" width={16 * 20} height={9 * 20} />
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
-        <p className="card-description">{description}</p>
-        <button color="black" onClick={onButtonClick} className="card-button" style={{ margin: 10 }}>
-          {buttonLabel}
-        </button>
+        <p className="card-description" style={{ whiteSpace: "pre-wrap" }}>
+          {description}
+        </p>
+        {link ? (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="card-button" style={{ margin: 10, display: "inline-block", padding: "10px 20px", background: "#000", color: "#fff", textDecoration: "none", borderRadius: "5px" }}>
+            {label}
+          </a>
+        ) : (
+          <p style={{ margin: 10, color: "#999" }}>準備中</p>
+        )}
       </div>
     </div>
   );
