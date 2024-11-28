@@ -10,7 +10,7 @@ type ContentCardProps = {
   link?: string;
 };
 
-const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, label, link }) => {
+const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, link }) => {
   return (
     <div className="card">
       <Image src={image} alt={title} className="card-image" width={16 * 20} height={9 * 20} />
@@ -21,7 +21,7 @@ const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, la
         </p>
         {link ? (
           <a href={link} target="_blank" rel="noopener noreferrer" className="card-button" style={{ margin: 10, display: "inline-block", padding: "10px 20px", background: "#000", color: "#fff", textDecoration: "none", borderRadius: "5px" }}>
-            {label}
+            体験する
           </a>
         ) : (
           <p style={{ margin: 10, color: "#999" }}>準備中</p>
