@@ -26,7 +26,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  margin: 30px;
+  margin: 30px auto;
 }
 
 .card {
@@ -82,8 +82,16 @@ body {
 }
 
 .company-info {
+  max-width: 600px; /* 最大横幅 */
+  min-width: 260px; /* 最大横幅 */
+  display: grid;
   text-align: left; /* 全体を左揃え */
-  margin: 20px; /* 適宜調整 */
+  background: white; /* 薄いグレー */
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* 余白をリセット */
 }
 
 .company-info h2 {
@@ -96,14 +104,6 @@ body {
   margin: 10px 0; /* 各要素の上下余白 */
 }
 
-.company-info {
-  background: white; /* 薄いグレー */
-  border: 2px solid #e0e0e0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .company-info h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -111,4 +111,8 @@ body {
   border-bottom: 2px solid #888888; /* アクセント */
   padding-bottom: 5px;
   margin-bottom: 15px;
+}
+
+.company-info a {
+  text-decoration: none; /* デフォルトの下線を消す */
 }

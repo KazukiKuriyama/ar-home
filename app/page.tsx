@@ -23,7 +23,7 @@ const contentsPage: React.FC = () => {
         ))}
       </div>
 
-      <div className="company-info" style={{ width: 500, margin: "20px auto" }}>
+      <div className="company-info">
         <h2>会社情報</h2>
         <p>
           <strong>会社名 : </strong> 株式会社キャスタル
