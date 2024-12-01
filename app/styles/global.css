@@ -36,6 +36,12 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   background: white;
+
+  /* 横幅を制限 */
+  max-width: 400px; /* 最大横幅 */
+  width: 100%; /* 親要素の幅に合わせる */
+  height: auto; /* アスペクト比を維持 */
+  margin: 0 auto; /* 中央揃え */
 }
 
 .card:hover {

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 type ContentCardProps = {
   title: string;
@@ -13,7 +12,7 @@ type ContentCardProps = {
 const ContentCard: React.FC<ContentCardProps> = ({ title, image, description, link }) => {
   return (
     <div className="card">
-      <Image src={image} alt={title} className="card-image" width={16 * 20} height={9 * 20} />
+      <img src={image} alt={title} className="card-image" width={16 * 20} height={9 * 20} />
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
         <p className="card-description" style={{ whiteSpace: "pre-wrap" }}>

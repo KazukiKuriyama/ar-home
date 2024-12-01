@@ -1,12 +1,10 @@
 import React from "react";
 import { contents } from "../data/contents";
 import ContentCard from "./components/ContentCard";
-import Image from "next/image";
-
 const contentsPage: React.FC = () => {
   return (
     <div className="container">
-      <Image
+      <img
         src="/images/logo_horizontal.png" // ロゴ画像のパス
         alt="ロゴ画像"
         width={250} // 必要に応じて幅を指定
