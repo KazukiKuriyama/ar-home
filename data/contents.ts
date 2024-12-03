@@ -18,12 +18,13 @@ export const contents = [
     title: "恐竜ラジコンAR",
     image: "/images/dino-move.png",
     description: "KYAST AR応用コンテンツ\n現実空間に恐竜を重ねてラジコンの様に操作して楽しむことができるARコンテンツ",
-    link: "https://pub-d0f8fd6cdc83480e867a22b9f515954b.r2.dev/GLBuild/index.html",
+    link: "https://ar-viewer.kyastal.com/dino-move/",
   },
   {
     id: 4,
     title: "【開発中】ARシューティング",
     image: "/images/ar-shotting.png",
     description: "KYAST AR応用コンテンツ\nWebブラウザ上で動作するARシューティングゲーム",
+    link: "https://ar-viewer.kyastal.com/ar-shooting/",
   },
 ];
