@@ -22,9 +22,16 @@ export const contents = [
   },
   {
     id: 4,
-    title: "【開発中】ARシューティング",
+    title: "ARシューティング",
     image: "/images/ar-shotting.png",
     description: "KYAST AR応用コンテンツ\nWebブラウザ上で動作するARシューティングゲーム",
     link: "https://ar-viewer.kyastal.com/ar-shooting/",
+  },
+  {
+    id: 5,
+    title: "設備マップAR",
+    image: "/images/equipment-map-ar.png",
+    description: "KYAST AR応用コンテンツ\n設備の位置をARで確認できるコンテンツ",
+    link: "https://ar-viewer.kyastal.com/equipment-map-ar/",
   },
 ];
