@@ -34,4 +34,11 @@ export const contents = [
     description: "KYAST AR応用コンテンツ\n設備の位置をARで確認できるコンテンツ",
     link: "https://ar-viewer.kyastal.com/equipment-map-ar/",
   },
+  {
+    id: 6,
+    title: "AR水族館",
+    image: "/images/ar-aquarium.png",
+    description: "KYAST AR応用コンテンツ\nWebブラウザ上で動作するAR水族館",
+    link: "https://ar-viewer.kyastal.com/ar-aquarium/",
+  },
 ];
